@@ -1,0 +1,47 @@
+// QalibServer.idl : IDL source for QalibServer.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (QalibServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	
+	[
+		object,
+		uuid(88FAF4C5-AE8B-4E05-B523-60087F1BCDC9),
+		dual,
+		helpstring("IQalibServerMain Interface"),
+		pointer_default(unique)
+	]
+	interface IQalibServerMain : IDispatch
+	{
+		[id(1), helpstring("method GetUpdatedFitParameters")] HRESULT GetUpdatedFitParameters([in] LONG calibrationID, [in] VARIANT *newFitParameters, [out,retval] VARIANT *error_msg);
+		[id(2), helpstring("method SetComment")] HRESULT SetComment([in] LONG calibrationID, [in] BSTR *comment, [out,retval] VARIANT *error_msg);
+		[id(3), helpstring("method SendEditableFitParameters")] HRESULT SendEditableFitParameters([in] LONG calibrationID, [out] VARIANT *editableFitParameters, [out,retval] VARIANT *error_msg);
+		[id(4), helpstring("method SendAssignedValues")] HRESULT SendAssignedValues([in] BSTR chemistry, [in] const VARIANT *sampleIDs, [out] VARIANT *curAssignedValues, [out,retval] VARIANT *error_msg);
+		[id(5), helpstring("method SendCalibrationResults")] HRESULT SendCalibrationResults([in] LONG calibrationID,[out] BSTR *chemistry,[out] BSTR *waveLength,[out] BSTR *species,[out] BSTR *diluent,[out] BSTR *mold,[out] BSTR *rotor,[out] BSTR *cuvette,[out] BSTR *mode,[out] BSTR *user,[out] BSTR *date,[out] VARIANT *description,[out] VARIANT *originalFitParameters,[out] VARIANT *newFitParameters,[out] VARIANT *minLimits,[out] VARIANT *maxLimits,[out] VARIANT *originalDisposition,[out] VARIANT *newDisposition,[out] VARIANT *calibrationData,[out] VARIANT *statusData,[out] VARIANT *rates,[out] VARIANT *plotData,[out] BSTR	*comment,[out,retval] VARIANT *error_msg);
+		[id(6), helpstring("method SendUserRights")] HRESULT SendUserRights([in] BSTR user,[in] BSTR password,[out] VARIANT *modeList,[out] VARIANT *chemistryList,[out,retval] VARIANT *error_msg);
+		[id(7), helpstring("method ReceiveClientData")] HRESULT ReceiveClientData([in] BSTR chemistry,[in] INT  outlierMethod,[in] BSTR mode,[in] BSTR user,[in] VARIANT *inputData,[in] VARIANT *serialNumber,[in] VARIANT *barCode,[in] VARIANT *sampleSpecies,[in] VARIANT *statusData,[in,out] LONG *calibrationID,[out,retval] VARIANT *error_msg);
+	};
+
+[
+	uuid(06DE59A6-D867-48A5-8A6A-EA9EE99E4A19),
+	version(1.0),
+	helpstring("QalibServer 1.0 Type Library")
+]
+library QALIBSERVERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	
+	[
+		uuid(68EF2CCA-E9AE-4FBA-972C-6C6C6C6FA44A),
+		helpstring("QalibServerMain Class")
+	]
+	coclass QalibServerMain
+	{
+		[default] interface IQalibServerMain;
+	};
+};

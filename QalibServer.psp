@@ -1,0 +1,17 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=144,168,665,417,0x43897fca
+_StateHistory=PROJECTS,'.\QalibServer.pjt','..\..\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.pjt'
+_RestoreProject='..\..\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.pjt'
+ProjSpaceFlags=0x00000000, 1
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+[Project.".\QalibServer.pjt"]
+
+[Project."..\..\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.pjt"]
+

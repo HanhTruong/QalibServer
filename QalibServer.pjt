@@ -1,0 +1,92 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='C:\_Calibration\QalibServer'
+SrchSetFlags=0x0418680a
+SrchSetAgainFlags=0x00006002,0
+SrchSetAgainFlags=0x0200600a,1
+SrchSetAttrElements=
+SrchSetAgainAttrElements=
+FileSortMode=0x0
+_StateHistory=FILELIST,'C:\Assignments\Calibration\T4Calibration\QalibT4Server\StdAfx.cpp','C:\Assignments\Calibration\T4Calibration\QalibT4Server\StdAfx.h','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4ServerCalculations.cpp','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server_i.c','C:\_Calibration\QalibServer\QalibServerps.mk','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Serverps.mk','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.cpp','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.idl','C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4ServerCalculations.h'
+_StateHistory=SEARCH,'dVector','80041000','41000','SendUpdatedFitParameters','GetUpdatedFitParameters','8002000b','nonlinfitwW','nonlinfit','#include "QalibStructs.h"','_p.c'
+_StateHistory=REPLACE,'TP','TRIG','VLDL','GLOB','LDL','TC/H','CalculatedAssignedFitParams','CalculatedAssignedFitParamsSamples','paramLabel',''
+_StateHistory=EDITFILE,'C:\Calibration\Logs\Client.log','K:\Calibration\Logs\LogFile.out','C:\CodeSamples\CPP\Logs\TestVariant.log','K:\Calibration\Logs\LogFile.out','C:\Assignments\Calibration\T4Calibration\QalibT4Client\QalibT4Client.dir','C:\Assignments\Calibration\T4Calibration\QalibT4Server\ServerCfiles.txt','C:\Assignments\Calibration\T4Calibration\QalibT4Server\ServerHfiles.txt','C:\CodeSamples\aaaa\072303\3285C4\3285C4.bat','C:\CodeSamples\aaaa\072303\3285C4\Results\3286C4.txt','C:\_Calibration\QalibServer\QalibServer.mak'
+_StateHistory=DIRECTORY,'C:\CodeSamples\CPP','Q:\released\100 - piccolo & common manufactured components\100-5xxx - common electronic parts, firmware-software\100-5073\100-5073','C:\CodeSamples','C:\Assignments','D:\samples\vc98','C:\Alves\Books\EssentialCOM','C:\Assignments\Calibration\T4Calibration\QalibT4Client','C:\Assignments\Calibration\T4Calibration','C:\OPTIVEC','C:\Assignments\Calibration\T4Calibration\QalibT4Server'
+_StateHistory=DOCUMENTVISIT,'1           1           C:\_Calibration\QalibServer\QalibServerps.mk','3           1           C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Serverps.mk','3           1           C:\_Calibration\QalibServer\QalibServerps.mk','3           1           C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Serverps.mk','55          1           C:\Calibration\Logs\Client.log','1           1           K:\Calibration\Logs\LogFile.out','44          26          C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.cpp','61          1           C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.idl','44          26          C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4Server.cpp','34          1           C:\Assignments\Calibration\T4Calibration\QalibT4Server\QalibT4ServerCalculations.h'
+_StateDocumentVisit=10
+
+
+
+[Editor]
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+ToolAddCmd='$_custom_tool_$_2','Paint',1342177312,'pbrush.exe'
+
+[Compiler]
+TagSetFile=''
+BrowseSetFile=''
+CompilerNewExt=.htm
+CompilerNewExt=.v
+CompilerNewExt=.awk
+CompilerNewExt=.bas
+CompilerNewExt=.adb
+CompilerNewExt=.cfml
+CompilerNewExt=.jsp
+CompilerNewExt=.pl
+CompilerNewExt=.vhd
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.asp
+CompilerNewExt=.rul
+CompilerNewExt=.cob
+CompilerNewExt=.js
+CompilerNewExt=.php
+CompilerNewExt=.rc
+CompilerNewExt=.tcl
+CompilerNewExt=.ini
+CompilerNewExt=.cs
+CompilerNewExt=.bat
+CompilerNewExt=.html
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.xml
+CompilerNewExt=.java
+CompilerNewExt=.jav
+CompilerNewExt=.sqlj
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Project]
+ConfigSetUserMakefile='C:\_Calibration\QalibServer\QalibServer.mak'
+ConfigSetUserMakefileParser='Microsoft NMAKE'
+ConfigSetUserMakefileTimeStamp=0
+ConfigSetUserMakefileAutoSync=1

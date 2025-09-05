@@ -1,0 +1,1 @@
+#define SMALL_VALUE			0.00000001

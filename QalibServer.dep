@@ -1,0 +1,99 @@
+# Microsoft Developer Studio Generated Dependency File, included by QalibServer.mak
+
+.\derivatives.cpp : \
+	".\derivatives.h"\
+	
+
+.\HelperFunctions.cpp : \
+	"..\..\optivec\include\matlib.h"\
+	"..\..\optivec\include\mdstd.h"\
+	"..\..\optivec\include\vdmath.h"\
+	"..\..\optivec\include\vdstd.h"\
+	"..\..\optivec\include\veclib.h"\
+	"..\..\optivec\include\vlistd.h"\
+	"..\..\optivec\include\vustd.h"\
+	".\globals.h"\
+	".\HelperFunctions.h"\
+	".\Loging.h"\
+	".\QalibStructs.h"\
+	".\Support.h"\
+	
+
+.\Loging.cpp : \
+	"..\..\optivec\include\vdstd.h"\
+	"..\..\optivec\include\veclib.h"\
+	".\Loging.h"\
+	
+
+.\NewFitParameters.cpp : \
+	"..\..\optivec\include\matlib.h"\
+	"..\..\optivec\include\mdstd.h"\
+	"..\..\optivec\include\vdmath.h"\
+	"..\..\optivec\include\vdstd.h"\
+	"..\..\optivec\include\veclib.h"\
+	"..\..\optivec\include\vlistd.h"\
+	"..\..\optivec\include\vustd.h"\
+	".\dboGetEditableFitParameters.H"\
+	".\dboGetSigmoidalEditableFitParametersValues.H"\
+	".\Loging.h"\
+	".\Support.h"\
+	
+
+.\Outliers.cpp : \
+	"..\..\optivec\include\matlib.h"\
+	"..\..\optivec\include\mdstd.h"\
+	"..\..\optivec\include\vdmath.h"\
+	"..\..\optivec\include\vdstd.h"\
+	"..\..\optivec\include\veclib.h"\
+	"..\..\optivec\include\vlistd.h"\
+	"..\..\optivec\include\vustd.h"\
+	".\dboGetCalculatedAssignedValues.H"\
+	".\dboGetCalibrationData.H"\
+	".\dboGetDataStatus.H"\
+	".\dboGetOutlierLimits.H"\
+	".\dboGetRecoveredValuesFromRates.H"\
+	".\dboGetSampleNames.H"\
+	".\dboGetSampleSizeIncludeOutliers.H"\
+	".\dboUpdateDataStatus.H"\
+	".\globals.h"\
+	".\HelperFunctions.h"\
+	".\Loging.h"\
+	".\Outliers.h"\
+	".\Support.h"\
+	
+
+.\QalibConstants.cpp : \
+	".\QalibConstants.h"\
+	
+
+.\QalibServer.cpp : \
+	".\dlldatax.h"\
+	".\QalibServerMain.h"\
+	".\QalibStructs.h"\
+	
+
+.\QalibServer.rc : \
+	".\QalibServer.tlb"\
+	".\QalibServerMain.rgs"\
+	
+
+.\SigmoidalResults.cpp : \
+	"..\..\optivec\include\matlib.h"\
+	"..\..\optivec\include\mdstd.h"\
+	"..\..\optivec\include\vdmath.h"\
+	"..\..\optivec\include\vdstd.h"\
+	"..\..\optivec\include\veclib.h"\
+	"..\..\optivec\include\vlistd.h"\
+	"..\..\optivec\include\vustd.h"\
+	".\dboGetSigmoidalResults.H"\
+	".\globals.h"\
+	".\Loging.h"\
+	".\QalibConstants.h"\
+	".\Results.h"\
+	".\Support.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	

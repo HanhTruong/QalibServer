@@ -1,0 +1,5 @@
+#define VALID			0
+#define OUTLIER			1
+#define VALID_MOVED		2
+#define EXCLUDED		4
+#define MOVED_AND_EXCLUDED	(VALID_MOVED | EXCLUDED)

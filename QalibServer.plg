@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: QalibServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HanhT\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+mtx.lib mtxguid.lib delayimp.lib ovvcmdd.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/QalibServer.pdb" /debug /machine:I386 /def:".\QalibServer.def" /out:"Debug/QalibServer.dll" /implib:"Debug/QalibServer.lib" /pdbtype:sept /libpath:"C:\OPTIVEC\LIB" /delayload:mtxex.dll 
+.\Debug\Albumin.obj
+.\Debug\AnalyteTypeClass.obj
+.\Debug\AssignedValues.obj
+.\Debug\BarCodes.obj
+.\Debug\BestFitMethods.obj
+.\Debug\BusinessRules.obj
+.\Debug\BusinessRulesEnforce.obj
+.\Debug\BusinessRulesProcess.obj
+.\Debug\BusinessRulesSupport.obj
+.\Debug\CalibrationCalculations.obj
+.\Debug\ChemistryDependent.obj
+.\Debug\Chloride.obj
+.\Debug\ClientData.obj
+.\Debug\Controls.obj
+.\Debug\DbAccess.obj
+.\Debug\DbUtils.obj
+.\Debug\derivatives.obj
+.\Debug\ErrorProcessing.obj
+.\Debug\ExponentialCalculations.obj
+.\Debug\ExponentialDerivatives.obj
+.\Debug\FitParameters.obj
+.\Debug\FixedSlope.obj
+.\Debug\FunctionArray.obj
+.\Debug\HelperFunctions.obj
+.\Debug\LinearCalibration.obj
+.\Debug\LinearFitParameters.obj
+.\Debug\LinearResults.obj
+.\Debug\Loging.obj
+.\Debug\MinMaxDecayResults.obj
+.\Debug\NewFitParameters.obj
+.\Debug\OutlierCalculations.obj
+.\Debug\Outliers.obj
+.\Debug\QalibConstants.obj
+.\Debug\QalibServer.obj
+.\Debug\QalibServerMain.obj
+.\Debug\QuadraticCalculations.obj
+.\Debug\QuadraticResults.obj
+.\Debug\Results.obj
+.\Debug\Rotor.obj
+.\Debug\SigmoidalCalculations.obj
+.\Debug\SigmoidalResults.obj
+.\Debug\Species.obj
+.\Debug\StatusTest.obj
+.\Debug\StdAfx.obj
+.\Debug\Support.obj
+.\Debug\T4.OBJ
+.\Debug\Triglycerides.obj
+.\Debug\Utils.obj
+.\Debug\QalibServer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\HanhT\LOCALS~1\Temp\RSPB4.tmp"
+Creating temporary file "C:\DOCUME~1\HanhT\LOCALS~1\Temp\RSPB5.bat" with contents
+[
+@echo off
+regsvr32 /s /c ".\Debug\QalibServer.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+echo Execute mtxrereg.exe before using MTS components in MTS
+]
+Creating command line "C:\DOCUME~1\HanhT\LOCALS~1\Temp\RSPB5.bat"
+Linking...
+   Creating library Debug/QalibServer.lib and object Debug/QalibServer.exp
+LINK : warning LNK4199: /DELAYLOAD:mtxex.dll ignored; no imports found from mtxex.dll
+<h3>Output Window</h3>
+Performing registration
+Execute mtxrereg.exe before using MTS components in MTS
+
+
+
+<h3>Results</h3>
+QalibServer.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
