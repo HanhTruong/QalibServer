@@ -1,0 +1,1 @@
+This is Qalib Server component. This component runs on the Server side. Its functions include reading and writing to database and also perform all analysis using OptiVec math library. It is called from a client app running on normal Windows OS communicate via COM and Proxy.
